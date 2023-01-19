@@ -1,0 +1,246 @@
+* {
+    margin: 0px auto;
+    font-family: 'Work Sans';
+}
+
+/* Banner */
+header {
+    background-image: url('images/banner/banner1.png');
+    height: 808px;
+    width: auto;
+}
+
+.banner-container {
+    text-align: right;
+    padding: 216px 150px 230px 845px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 13px;
+    color: #444343;
+}
+
+.btn-primary {
+    margin-top: 32px;
+    padding: 21px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* My failure */
+.failure {
+    margin: 131px 322px 130px 106px;
+    display: flex;
+    gap: 87px;
+    justify-content: start;
+    align-items: center;
+}
+
+.failure-container {
+    margin-top: 240px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-list {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #444343;
+}
+
+li {
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+li:before {
+    content: '✓';
+}
+
+/* plan */
+.plans {
+    text-align: center;
+}
+
+.plan-list {
+    display: flex;
+    margin: 55px 230px 130px;
+    gap: 90px;
+}
+
+.image {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('images/watch.png');
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    margin: 130px 230px;
+    padding: 60px 418px 60px 60px;
+}
+
+.image-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.image-btn {
+    margin-top: 24px;
+    padding: 21px 36px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+}
+
+/* To do list */
+.doing-list {
+    text-align: center;
+}
+
+.doing-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.doing-des {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #707070;
+    text-align: center;
+    margin-left: 374px;
+    margin-right: 374px;
+}
+
+.work-type {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 24px;
+    margin: 0px 157px;
+    margin-top: 20.5px;
+}
+
+.routine {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    border: none;
+    padding: 63.5px 22px 54px 23px;
+}
+
+.hard-work {
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 63.5px 22px 54px 23px;
+}
+
+.Practice {
+    background: #e7c6a1;
+    border-radius: 5px;
+    padding: 63.5px 22px 54px 23px;
+}
+
+.work-name {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    font-family: 'Poppins';
+    margin-top: 29.5px;
+}
+
+.work-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    margin-top: 16px;
+}
+
+/* Footer */
+footer {
+    background: #151414;
+    height: 250px;
+    margin-top: 130px;
+    display: flex;
+    gap: 250px;
+    padding: 130px 230px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+    color: #F8F8F8;
+}
+
+.footer-des {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    color: #F8F8F8;
+    margin-bottom: 18px;
+}
+
+.footer-email {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-contact {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+img {
+    margin-right: 8px;
+    margin-top: 25px;
+}
+
+.subscribe-name {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+input {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    background: #151414;
+    margin-bottom: 12px;
+    height: 34px;
+}
+
+.btn-subscribe {
+    color: #F15B22;
+    padding: 18px 30px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
